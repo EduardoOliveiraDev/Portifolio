@@ -76,11 +76,11 @@ main {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.imagemProjetoEstoque > iframe {
-    width: 90%;
+.imagemProjetoEstoque > img {
+    width: 100%;
     height: 60vh;
     border-radius: 1vh;
-    border: 3.5px solid red;
+    border: 3.5px solid rgb(0, 0, 0);
 }
 
 .mc2Center {
@@ -189,7 +189,7 @@ main {
     align-items: center;
 }
 
-.mc3right {
+.containerApresentacaoImage {
     width: 45%;
     height: 80vh;
     display: flex;
@@ -197,12 +197,12 @@ main {
     align-items: center;
 }
 
-.mc3right > img {
+.containerApresentacaoImage > img {
     width: 90%;
     height: 100%;
     border-radius: 2vh;
-    border-bottom: 1vh solid #000;
-    border-right: 1vh solid #000;
+    border-bottom: 0.5vh solid #000;
+    border-right: 0.5vh solid #000;
 }
 
 .mc3left > p,
