@@ -1,0 +1,6 @@
+footer {
+    width: 100%;
+    height: 10vh;
+
+    background-image: radial-gradient(circle, #5d3af7, #070030);
+}
